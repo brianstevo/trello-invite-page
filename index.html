@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+    <div class="card">
+        <div class="head"><p id="header">Invite to Board </p>
+        <img src="times-solid.svg" alt=""></div>
+        <input type="email" name="" id="" placeholder="Email address or name"><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <button id="inv">Send Invitation</button>
+        <div class="clear">
+            <span id="leftp">[-]</span>
+            <span id="midp">Invite with link</span>
+            <a href="" id="rightp">Create link</a>
+        </div>
+        <p id="line">Anyone with this link can join as board member</p>
+    </div>
+</section>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .card{
+            display: inline-block;
+            border: 1px solid #C0C0C0;
+            border-radius: 6px; 
+            padding: 0 10px;
+            text-align: center;
+            position: absolute; 
+            margin: auto;
+            top: 0;
+            right: 0; 
+            bottom: 0;
+            left: 0;
+            width:370px;
+            height:440px;
+        }
+        p{
+            font-size: 14px;
+            opacity: .7;
+        }
+        span{
+            font-size: 14px;
+            opacity: .7;
+        }
+        #header{
+            font-size: 16px;
+            opacity: .8;
+            padding: 10px;
+            margin-left: auto;
+        }
+        input{
+            width: 100%;
+            margin:15px 0;
+            padding:15px 10px;
+            border-radius:0;
+            border:1px solid #C0C0C0;
+            font-size: 16px;
+        }
+        textarea{
+            width: 100%;
+            border:1px solid #C0C0C0;
+            resize: none;resize: none;
+        }
+        #inv{
+            font-size: 19px;
+            border: none;
+            width: 100%;
+            margin: 20px 0;
+            padding: 10px 0;
+            background-color:rgba(9,30,66,.04);
+            color:#a5adba;
+        }
+        #midp{
+            font-weight: bolder;
+        }
+        .clear{
+            display: flex;
+            padding: 10px 0 3px 0;
+            /* justify-content: space-between; */
+            align-items: center;
+            border-top: 1px solid #C0C0C0;
+        }
+        #midp{
+margin-left: 10px;
+        }
+        #rightp{
+            margin-left: auto;
+        }
+        #line{
+            padding-bottom: 10px;
+        }
+        img{
+            width: 10px;
+            margin-left: auto;
+            opacity: .5;
+        }
+        .head{
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #C0C0C0;
+        }
+    </style>
+</body>
+</html>
